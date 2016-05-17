@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+		background-color:#333;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#NAGLOWEK {
+    background-color: #fff;
+    width: 1000px;
+    height: 192px;
+    background-image:jpg1.jpg;    
+}
+
+
+#logo
+{
+	text-align: center;
+	margin-top:20px;
+	background-image:url(jpg1.jpg);
+	width: 578px;
+	height: 200px;
+	background-color: #fff;
+	margin: 0 auto;
+	
+	
+}
+
+#logo a
+{
+	color:white;
+	text-decoration:none;
+}
+#menu
+{
+	background-color:#666;
+	margin-top:20px;
+}
+.option
+{
+	float:left;
+	color:white;
+	border-right:2px solid;
+	width:20%;
+	text-align:center;
+	line-height:250%;
+}
+.option a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+	height:50px;
+}
+.option a:hover
+{
+	background-color:white;
+	color:black;
+}
+#footer
+{
+	clear:both;
+}
+#topbar
+{
+	margin-top:20px;
+	background-color:#09BDB8;
+	padding:25px;
+	height:150px;
+
+}
+#content
+{
+	background-color:#CCC;
+	margin-top:25px;
+	padding:25px;
+}
+.title
+{
+	font-size:30px;
+	font-weight:900;
+	color:white;
+}
+#footer
+{
+	text-align:center;
+	padding:15px;
+	color:white;
+}
